@@ -1,0 +1,15 @@
+.circle-pic{
+  border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.project-image{
+  width: 200px;
+  height: 200px;
+}
+
+.me-pic{
+  width: 250px;
+  height: 250px;
+}
