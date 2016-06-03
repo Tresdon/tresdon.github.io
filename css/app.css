@@ -7,6 +7,10 @@ h2 {
   color: #6CBB3C;
 }
 
+.blurb {
+  font-size:18px;
+}
+
 
 .circle-pic{
   border-radius: 50%;
@@ -25,14 +29,18 @@ h2 {
   height: 250px;
 }
 
+.project-description {
+  font-size:22px;
+}
+
 .project-image{
   width: 200px;
   height: 200px;
 }
 
 .row {
-  margin-top: 1%;
-  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-bottom: 10%;
 }
 
 .tech-name {
