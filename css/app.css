@@ -12,7 +12,6 @@ p{
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
   margin-bottom: 2%;
   color: #B4A7D6;
 }
@@ -43,7 +42,6 @@ h2 {
   height: 250px;
 }
 
-
 .project-row {
   margin-bottom: 3%;
 }
@@ -57,7 +55,16 @@ h2 {
   color: #ff8080;
 }
 
+.contact-details {
+  margin-top: 7%;
+}
+
 #copyright {
   margin-top: 3%;
   font-size: 12px;
+}
+
+#file-icon {
+  max-height: 5%;
+  max-width: 5%;
 }

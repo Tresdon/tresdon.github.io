@@ -10,19 +10,21 @@ function setYear() {
     $("#copyright-year").html(d.getFullYear());
 }
 
+
+/*
+When the document is ready do these things.
+ */
 $(function () {
-    
+
+    // Load all images initially so they don't need to be loaded on hover
     preload([
-        'assets/Github-color.svg',
-        'assets/Linkedin-color.svg',
-        'assets/stackoverflow-color.svg',
-        'assets/Spotify-color.svg',
-        'assets/Twitter-color.svg'
+        'img/social-icons/Github-color.svg',
+        'img/social-icons/Linkedin-color.svg',
+        'img/social-icons/stackoverflow-color.svg',
+        'img/social-icons/Spotify-color.svg',
+        'img/social-icons/Twitter-color.svg'
     ]);
 
-
+    // Set the year of the copyright
     setYear();
-
-
-
 });
