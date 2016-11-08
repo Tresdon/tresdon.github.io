@@ -56,3 +56,7 @@ h4{
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
+.emphasize {
+    font-weight: bold;
+}
