@@ -19,7 +19,7 @@ $(function () {
     // Load all images initially so they don't need to be loaded on hover
     preload([
         'img/social-icons/Github-color.svg',
-        'img/social-icons/Linkedin-color.svg',
+        'img/social-icons/LinkedIn-color.svg',
         'img/social-icons/stackoverflow-color.svg',
         'img/social-icons/Spotify-color.svg',
         'img/social-icons/Twitter-color.svg'
