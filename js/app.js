@@ -1,6 +1,5 @@
-
 function preload(arrayOfImages) {
-    $(arrayOfImages).each(function(){
+    $(arrayOfImages).each(function () {
         $('<img/>')[0].src = this;
     });
 }
@@ -10,9 +9,18 @@ function setYear() {
     $("#copyright-year").html(d.getFullYear());
 }
 
+$('#email-icon').mouseenter(function () {
+    $(this).notify("tresdonj@gmail.com",
+        {position: "right",
+        autoHide: true,
+            arrowShow: false,
+        className: "info",
+        gap: 5});
+});
+
 
 /*
-When the document is ready do these things.
+ When the document is ready do these things.
  */
 $(function () {
 
@@ -22,7 +30,8 @@ $(function () {
         'img/social-icons/LinkedIn-color.svg',
         'img/social-icons/stackoverflow-color.svg',
         'img/social-icons/Spotify-color.svg',
-        'img/social-icons/Twitter-color.svg'
+        'img/social-icons/Twitter-color.svg',
+        'img/social-icons/resume-color.svg'
     ]);
 
     // Set the year of the copyright
