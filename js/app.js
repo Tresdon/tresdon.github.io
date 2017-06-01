@@ -31,7 +31,8 @@ $(function () {
         'img/social-icons/stackoverflow-color.svg',
         'img/social-icons/Spotify-color.svg',
         'img/social-icons/Twitter-color.svg',
-        'img/social-icons/resume-color.svg'
+        'img/social-icons/resume-color.svg',
+        'img/social-icons/email-color.svg'
     ]);
 
     // Set the year of the copyright
