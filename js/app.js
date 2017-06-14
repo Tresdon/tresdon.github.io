@@ -1,3 +1,12 @@
+var email_notification = new Noty({
+    type:  'notification',
+    text: 'tresdonj@gmail.com',
+    theme: 'semanticui',
+    closeWith: []
+});
+Noty.setMaxVisible(1);
+var emailNotificationVisible = false;
+
 function preload(arrayOfImages) {
     $(arrayOfImages).each(function () {
         $('<img/>')[0].src = this;
@@ -10,12 +19,15 @@ function setYear() {
 }
 
 $('#email-icon').mouseenter(function () {
-    $(this).notify("tresdonj@gmail.com",
-        {position: "right",
-        autoHide: true,
-            arrowShow: false,
-        className: "info",
-        gap: 5});
+    if(!emailNotificationVisible) {
+        emailNotificationVisible = true;
+        email_notification.show();
+        setTimeout(function () {
+            emailNotificationVisible = false;
+            email_notification.close();
+        }, 5000)
+    }
+
 });
 
 
