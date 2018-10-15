@@ -3,55 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>My Favorite Things About Python</title>
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300|Montserrat" rel="stylesheet">
     <link rel="icon" href="../../img/favicon.ico">
+    <link rel="stylesheet" href="../../css/app.css">
     <link rel="stylesheet" href="../../css/essays.css">
-    <link rel="stylesheet" href="../../css/code-highlighting-styles/solarized-light.css">
-
 </head>
 <body>
 
-<!-- Back Icon -->
-<div class="row">
-    <div class="col-lg-12" style="margin-top: 2%;">
-        <a href="https://tresdonjones.com"><p><img id="back-icon" src="../../img/essays/back_icon.svg">
-            tresdonjones.com</p></a>
-    </div>
-</div>
-
-
-<!-- Title -->
-<div class="row">
-    <div class="col-lg-12 essay-title">
-        <h1 class="text-center">My Favorite Things About <code>Python</code></h1>
-    </div>
-</div>
-
-<!-- Description -->
-<div class="row">
-    <div class="col-lg-12 essay-description">
-        <h2 class="text-center">A Running list of the things that I enjoy most about python and why I think they make
-            the language elegant and powerful.
-        </h2>
-    </div>
-</div>
+<a href="https://tresdonjones.com/essays">back</a>
+<h1>My Favorite Things About <code>Python</code></h1>
+<h2 class="text-center">A Running list of the things that I enjoy most about python and why I think they make the language elegant and powerful.</h2>
 
 <!-- Post -->
-<div class="row">
-    <div class="col-lg-12 essay">
-        <p>
-            Python is certainly one of my favorite programming languages and it's just because it's so fun to write.
-            One of the other things I love about python is how frequently I learn new things about it that I
-            never would have expected to be in a programming language.
-            What you'll find here is a list of how some of my favorite features of python work and why I think they're
-            so cool.
-        </p>
 
-        <h3>String and List Indexing</h3>
-        <p>This is a super basic feature but I think it expertly demonstrates how intuitive and clever python can be.
-        This isn't your grandma's <code>substring()</code> method.</p>
-        <pre><code class="python">>>> list = [0,1,2,3,4,5]
+<p>
+    Python is certainly one of my favorite programming languages and it's just because it's so fun to write.
+    One of the other things I love about python is how frequently I learn new things about it that I
+    never would have expected to be in a programming language.
+    What you'll find here is a list of how some of my favorite features of python work and why I think they're
+    so cool.
+</p>
+
+<h3>String and List Indexing</h3>
+<p>This is a super basic feature but I think it expertly demonstrates how intuitive and clever python can be.
+This isn't your grandma's <code>substring()</code> method.</p>
+
+
+<pre><code class="python">>>> list = [0,1,2,3,4,5]
 >>> list[:2]
 [0, 1]
 
@@ -65,46 +42,61 @@
 >>> string[:3]  # take from the beginning of the string to index 3 (exclusive)
 'Hel'
 >>> string[3:]  # take from index 3 (inclusive) to the end of the string.
-'lo World!'</code></pre>
+'lo World!
+</code></pre>
 
-        <h3>*args, **kwargs, and Optional Parameters</h3>
-        <p>Normally we know our parameters and can define our functions simply like:</p>
-        <pre><code class="python">def product(a, b, c):
-    return a * b * c</code></pre>
-        <p>However this can be a bit limiting because what if we want to be able to get the product of an arbitrary
-        number of integers? This is where <code>*args</code> comes in handy. We can use an unlimited amount of positional
-        arguments in <code>*args</code> and get what we want.</p>
-        <pre><code class="python">def product(*args):
-    product = 1
-    for i in args:
-        product *= i
-    return product</code></pre>
+<h3>*args, **kwargs, and Optional Parameters</h3>
+<p>Normally we know our parameters and can define our functions simply like:</p>
 
-        <p>We can call this function a multiple of ways:</p>
-        <pre><code class="python">>>> product(1,2,3,4,5)
+
+<pre><code class="python">def product(a, b, c):
+return a * b * c
+</code></pre>
+
+
+<p>However this can be a bit limiting because what if we want to be able to get the product of an arbitrary
+number of integers? This is where <code>*args</code> comes in handy. We can use an unlimited amount of positional
+arguments in <code>*args</code> and get what we want.</p>
+
+
+<pre><code class="python">def product(*args):
+product = 1
+for i in args:
+product *= i
+return product
+</code></pre>
+
+<p>We can call this function a multiple of ways:</p>
+
+
+<pre><code class="python">>>> product(1,2,3,4,5)
 120
 >>> a = [5,10,2]
 >>> product(*a)
-100</code></pre>
+100
+</code></pre>
 
-        <p>We can also use a variable number of keyword parameters if we use <code>**kwargs.</code></p>
+<p>We can also use a variable number of keyword parameters if we use <code>**kwargs.</code></p>
 
-        <pre><code class="python">def print_kwargs(**kwargs):
-    for key, value in kwargs.items():
-        print key, value</code></pre>
 
-        <p>We can also pass in whole dictionaries as arguments to our function!</p>
+<pre><code class="python">def print_kwargs(**kwargs):
+for key, value in kwargs.items():
+print key, value
+</code></pre>
 
-        <pre><code class="python">def print_person(name, age, occupation):
-    print name, age, occupation</code></pre>
+<p>We can also pass in whole dictionaries as arguments to our function!</p>
 
-        <p>This will work if we call the function with a dictionary that has the keys name, age, and occupation.</p>
-        <pre><code class="python">>>> john = {'name': 'John', 'age':30, 'occupation':'fireman'}
+
+<pre><code class="python">def print_person(name, age, occupation):
+print name, age, occupation</code></pre>
+
+<p>This will work if we call the function with a dictionary that has the keys name, age, and occupation.</p>
+
+
+<pre><code class="python">>>> john = {'name': 'John', 'age':30, 'occupation':'fireman'}
 >>> print_person(john)
-'John 30 fireman'</code></pre>
-
-    </div>
-</div>
+'John 30 fireman'
+</code></pre>
 
 <script src="../../js/jquery.min.js" type="text/javascript"></script>
 <script src="../../js/bootstrap.min.js" type="text/javascript"></script>

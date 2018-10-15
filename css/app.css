@@ -1,89 +1,67 @@
-body {
-    background-color: #FEFEFA;
-    color: #111121;
+:root {
+    --link-color: darkblue;
 }
 
-h1 {
-    font-family: 'Lato', cursive;
-    color: black;
+aside {
+    padding: 20px;
+    grid-area: sidebar;
 }
 
-p {
-    font-family: 'Lato', sans-serif;
+aside h1 {
+    font-size: 50px;
+    font-family: 'Slabo 27px', serif;
 }
 
-h2 {
-    font-family: 'Lobster Two', cursive;
-    margin-bottom: 3%;
-    color: #383B50;
+aside .abstract {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: italic;
 }
 
-h3 {
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 1%;
-    color: #111121;
+div.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+            '... ....... ....... ....... ....... ...'
+            '... sidebar ....... ....... ....... ...'
+            '... sidebar content content content ...'
+            '... sidebar content content content ...'
+            '... sidebar content content content ...'
+            '... sidebar content content content ...'
+            '... sidebar content content content ...'
+            '... ....... content content content ...'
+            '... ....... ....... ....... ....... ...';
+    grid-template-columns: 100px 18%  auto auto auto 100px;
+}
+
+
+div.content {
+    grid-area: content;
+    font-family: 'Crimson Text', serif;
+    padding: 20px;
+    font-size: 30px;
+}
+
+section > nav {
+    margin-top: 50px;
+    line-height: 140%;
 }
 
 a {
-    color: #8B919E;
+    display: block;
+    font-size: 18px;
+    color: var(--link-color);
+    text-decoration: none;
 }
 
 a:hover {
+    display: block;
+    font-size: 18px;
+    background-color: var(--link-color);
+    color: white;
     text-decoration: none;
-    color: #383B50;
 }
 
-.circle-pic {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border: 2px solid #8B919E;
-}
 
-.circle-pic:hover {
-    border: 2px solid #383B50;
-}
 
-.contact-button {
-    width: 40px;
-    height: 40px;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 3%;
-}
-
-.me-pic {
-    margin-top: 1%;
-    width: 250px;
-    height: 250px;
-}
-
-.project-row {
-    margin-bottom: 3%;
-}
-
-.project-image {
-    width: 200px;
-    height: 200px;
-}
-
-.tech-name {
-    background-color: #E3E1E8;
-    font-weight: 200;
-    font-size: 12px;
-    color: #383B50;
-}
-
-.contact-details {
-    margin-top: 7%;
-}
-
-#copyright {
-    margin-top: 3%;
-    font-size: 12px;
-}
-
-#file-icon {
-    max-height: 5%;
-    max-width: 5%;
-}
