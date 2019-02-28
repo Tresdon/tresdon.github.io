@@ -1,3 +1,25 @@
+:root {
+    --link-color: darkblue;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--link-color);
+    color: white;
+    text-decoration: none;
+}
+
+
 body {
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
     margin: 5% 15% 5%;
+}
+
+h2 {
+    color: gray;
 }

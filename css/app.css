@@ -40,24 +40,23 @@ div.content {
     grid-area: content;
     font-family: 'Crimson Text', serif;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 section > nav {
     margin-top: 50px;
     line-height: 140%;
+    font-size: 20px;
 }
 
 a {
     display: block;
-    font-size: 18px;
     color: var(--link-color);
     text-decoration: none;
 }
 
 a:hover {
     display: block;
-    font-size: 18px;
     background-color: var(--link-color);
     color: white;
     text-decoration: none;
