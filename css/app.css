@@ -2,6 +2,19 @@
     --link-color: darkblue;
 }
 
+a {
+    display: block;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    display: block;
+    background-color: var(--link-color);
+    color: white;
+    text-decoration: none;
+}
+
 aside {
     padding: 20px;
     grid-area: sidebar;
@@ -14,8 +27,12 @@ aside h1 {
 
 aside .abstract {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     font-style: italic;
+}
+
+body {
+    background-color: #FEFEFE;
 }
 
 div.container {
@@ -43,24 +60,30 @@ div.content {
     font-size: 20px;
 }
 
+ul {
+    list-style: square;
+}
+
+
 section > nav {
     margin-top: 50px;
     line-height: 140%;
     font-size: 20px;
 }
 
-a {
-    display: block;
-    color: var(--link-color);
-    text-decoration: none;
+
+.green {
+    color: darkgreen;
 }
 
-a:hover {
-    display: block;
-    background-color: var(--link-color);
-    color: white;
-    text-decoration: none;
+.red {
+    color: darkred;
 }
 
+.right {
+    text-align: right;
+    float: right;
+    width: 70%;
+}
 
 
