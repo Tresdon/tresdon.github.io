@@ -18,6 +18,7 @@ a:hover {
 aside {
     padding: 20px;
     grid-area: sidebar;
+    float: left;
 }
 
 aside h1 {
@@ -27,7 +28,7 @@ aside h1 {
 
 aside .abstract {
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 28px;
     font-style: italic;
 }
 
@@ -49,7 +50,7 @@ div.container {
             '... sidebar content content content ...'
             '... ....... content content content ...'
             '... ....... ....... ....... ....... ...';
-    grid-template-columns: 100px 18%  auto auto auto 100px;
+    grid-template-columns: 100px 20%  auto auto auto 100px;
 }
 
 
@@ -57,7 +58,7 @@ div.content {
     grid-area: content;
     font-family: 'Crimson Text', serif;
     padding: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 ul {
@@ -68,9 +69,14 @@ ul {
 section > nav {
     margin-top: 50px;
     line-height: 140%;
-    font-size: 20px;
+    font-size: 24px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .green {
     color: darkgreen;
@@ -86,4 +92,41 @@ section > nav {
     width: 70%;
 }
 
+/* Mobile devices */
+@media only screen and (max-width: 800px) {
+
+    aside h1 {
+        font-size: 40px;
+    }
+
+    aside .abstract {
+        font-size: 24px;
+    }
+
+    div.container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-areas:
+                '... ....... ....... ....... ....... ...'
+                '... sidebar ....... ....... ....... ...'
+                '... sidebar content content content ...'
+                '... sidebar content content content ...'
+                '... sidebar content content content ...'
+                '... sidebar content content content ...'
+                '... sidebar content content content ...'
+                '... ....... content content content ...'
+                '... ....... ....... ....... ....... ...';
+        grid-template-columns: 10px auto  auto auto auto 10px;
+    }
+
+    div.content {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+}
 
