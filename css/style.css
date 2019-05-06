@@ -3,6 +3,7 @@
 }
 
 a {
+    padding-left: 10px;
     display: block;
     color: var(--link-color);
     text-decoration: none;
@@ -61,15 +62,23 @@ div.content {
     font-size: 24px;
 }
 
+h4 {
+    font-size: 1.2em;
+}
+
 ul {
     list-style: square;
 }
 
 
-section > nav {
+section.navigation {
     margin-top: 50px;
     line-height: 140%;
     font-size: 24px;
+}
+
+nav a {
+    margin-top: 2%;
 }
 
 .center {

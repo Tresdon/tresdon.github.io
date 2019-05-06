@@ -1,0 +1,57 @@
+div .input {
+    margin-bottom: 3%;
+}
+
+fieldset {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+fieldset p {
+    background-color: darkblue;
+    color: white;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+input {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 2%;
+    width: auto;
+    font-size: 20px;
+
+}
+
+input[type=text], input[type=tel], input[type=email] {
+    border-bottom: 3px solid darkgray;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 20px;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
+    border-bottom: 3px solid darkblue;
+    outline: none !important;
+}
+
+label {
+    display: inline-block;
+}
+
+.required:after {
+    content:" *";
+    color: darkred;
+}
+
+textarea {
+    vertical-align: top;
+}

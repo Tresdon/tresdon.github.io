@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@&  vV  :m   ||  3  ^>  0 F9  [}  \ ? /</title>
     <link rel="shortcut icon" href="img/favicon.ico"/>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100i|Slabo+27px|Crimson+Text" rel="stylesheet">
 </head>
 
@@ -26,9 +26,11 @@
 
         <section class="navigation">
             <nav>
-                <a href="#">runes</a>
-                <a href="essays">essays</a>
-                <a href="projects">projects</a>
+                <a href="#" style="color: white; background-color: var(--link-color);">runes</a>
+                <a href="essays.html">essays</a>
+                <a href="projects.html">projects</a>
+                <a href="photos.html">photos</a>
+                <a href="cassettes.html">cassettes</a>
                 <a href="contact.html">contact</a>
             </nav>
         </section>
@@ -63,7 +65,7 @@
             "capitalism is a dramatic response to the question of good living"
     ];
 
-    const timeout = 3000;
+    const timeout = 5000;
 
     function setTicker(i) {
         document.getElementById("ticker").innerHTML = runes[i];

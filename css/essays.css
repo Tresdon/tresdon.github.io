@@ -1,18 +1,3 @@
-:root {
-    --link-color: darkblue;
-}
-
-a {
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: var(--link-color);
-    color: white;
-    text-decoration: none;
-}
-
 p {
     font-size: 1.1em;
 }
