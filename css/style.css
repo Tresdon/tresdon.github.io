@@ -105,11 +105,11 @@ nav a {
 @media only screen and (max-width: 800px) {
 
     aside h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     aside .abstract {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     div.container {
@@ -126,7 +126,7 @@ nav a {
                 '... sidebar content content content ...'
                 '... ....... content content content ...'
                 '... ....... ....... ....... ....... ...';
-        grid-template-columns: 10px auto  auto auto auto 10px;
+        grid-template-columns: 2% auto auto auto auto 2%;
     }
 
     div.content {
@@ -134,7 +134,7 @@ nav a {
     }
 
     nav a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }

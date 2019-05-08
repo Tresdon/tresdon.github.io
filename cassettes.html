@@ -2,14 +2,18 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <title>casssettes by tresdon [ -- o - o -- ]</title>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="language" content="english">
+    <meta name="description" content="custom cassettes made to order for bands, labels, or anybody really.">
+    <meta name="keywords" content="custom,cassettes,order,online,shipping,cassette tape,tape">
+    <meta name="author" content="Tresdon Jones">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@& vV :m || 3 ^> 0 F9 [} \ ? /</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cassettes.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100i|Slabo+27px|Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/cassettes.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i|Slabo+27px|Crimson+Text" rel="stylesheet" media="screen">
 </head>
 
 <body>
@@ -105,57 +109,23 @@
                     <label for="quantity">quantity</label>
                     <input type="number" max="10" id="quantity" name="quantity" placeholder="max 10" required>
                 </div>
+                <div class="input">
+                    <label for="comments">comments</label>
+                    <textarea id="comments" name="comments" placeholder="anything you want me to know? Special requests?" cols="100" rows="7"></textarea>
+                </div>
 
                 <div>
-                    <button>submit order</button>
+                    <button>get a quote</button>
                 </div>
             </fieldset>
         </form>
 
-        <img src="img/projects/cassettes_full.jpg">
+        <img src="img/projects/cassettes_full.jpg" alt="custom cassettes for order">
 
-        <p>orders ship within 3-5 days — U.S. only, sorry :(</p>
+        <p>orders ship within 3-5 days after payment has been made — U.S. only, sorry :(</p>
 
     </div>
 
 </div>
-
-<script>
-    var runes = [
-        "a break isn't a break until you get back to it",
-        "to be smart is to not think so much",
-        "being aligns cosmically",
-        "a compass always points some direction and maybe internal north is volatile",
-        "if it's something important to speak, seat it in silence",
-        "generous and grounded are those clocks which approximate",
-        "i will stay here, and i will be happy with what i've got - says the calm man",
-        "i am here, and happy with what i've got - says the enlightened man",
-        "i will be *here*, and happy with what i've got - says the sovereign man",
-        "maybe i just hate to think that your heartbreak ain’t over me",
-        "smiling is worth the wrinkles",
-        "turn the news off once it starts feeling too similar because well then it's not news —",
-        "look to your experience, look to your imagination, look to your body, look to the flowers, look to the bugs, look to your hands – and really see what you can see",
-        "capitalism is a dramatic response to the question of good living"
-    ];
-
-    const timeout = 3000;
-
-    function setTicker(i) {
-        document.getElementById("ticker").innerHTML = runes[i];
-        // This means we're on the last, start back at 0
-        if (i >= runes.length - 1) {
-            setTimeout(function () {
-                setTicker(0)
-            }, timeout);
-        } else {
-            setTimeout(function () {
-                setTicker(++i)
-            }, timeout);
-        }
-    }
-
-
-    setTicker(Math.floor(Math.random() * runes.length));
-</script>
 </body>
 </html>

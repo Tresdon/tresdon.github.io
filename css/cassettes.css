@@ -1,9 +1,15 @@
-div .input {
-    margin-bottom: 3%;
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+div.input {
+    margin-bottom: 5%;
 }
 
 fieldset {
-    width: 70%;
+    max-width: available;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -21,10 +27,8 @@ img {
 }
 
 input {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-left: 2%;
-    width: auto;
+    padding: 10px 10px;
+    margin-left: 3%;
     font-size: 20px;
 
 }
@@ -41,6 +45,26 @@ input[type=text], input[type=tel], input[type=email] {
 input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
     border-bottom: 3px solid darkblue;
     outline: none !important;
+}
+
+input#apt {
+    width: 8vw;
+}
+
+input#city {
+    width: 12vw;
+}
+
+input#state {
+    width: 2vw;
+}
+
+input#zip {
+    width: 5vw;
+}
+
+input#phone {
+    width: 12vw;
 }
 
 label {
