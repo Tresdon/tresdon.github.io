@@ -2,7 +2,7 @@
 This file provides functionality to do the following:
 
 1. Compress all photos in the full_res folder to a specified size.
-2. Generate the html code for linking all the photos
+2. Generate the pages code for linking all the photos
 """
 import argparse
 import os
@@ -12,7 +12,7 @@ from PIL import Image
 
 
 PENTAX_ASPECT_RATIO = 1.5
-HTML_TEMPLATE = '<a href="{full_res_path}" data-lightbox="photos"><img src="{compressed_path}"></a>\n'
+HTML_TEMPLATE = '<a href="{full_res_path}" data-lightbox="photos"><images src="{compressed_path}"></a>\n'
 
 
 def parse_args():
@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument('path', help='The folder to compress', type=str)
     parser.add_argument('--width', help='The width to make the output images', default=543, type=int)
     parser.add_argument('--height', help='The height to make the output images', type=int)
-    parser.add_argument('--generated-code-file', help='The file to put the generated code into', type=str, default='generated.html')
+    parser.add_argument('--generated-code-file', help='The file to put the generated code into', type=str, default='generated.pages')
     parser.add_argument('--skip-compression', help='Whether or not to skip the compression', action='store_true')
     parser.add_argument('--skip-code-generation', help='Whether or not to skip code generation', action='store_true')
     args = parser.parse_args()
