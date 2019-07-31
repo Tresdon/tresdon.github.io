@@ -18,11 +18,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/essays.html</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://tresdonjones.com/projects.html</loc>
   <lastmod>2019-05-06T03:04:45+00:00</lastmod>
   <priority>0.80</priority>
@@ -53,7 +48,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/essays/html/on_good.html</loc>
+  <loc>https://tresdonjones.com/runes/html/on_good.html</loc>
   <lastmod>2019-05-06T03:04:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
