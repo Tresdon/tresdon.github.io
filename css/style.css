@@ -24,11 +24,11 @@ aside {
 
 aside h1 {
     font-size: 50px;
-    font-family: 'Slabo 27px', serif;
+    font-family: serif;
 }
 
 aside .abstract {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     font-size: 28px;
     font-style: italic;
 }
@@ -57,7 +57,7 @@ div.container {
 
 div.content {
     grid-area: content;
-    font-family: 'Crimson Text', serif;
+    font-family: serif;
     padding: 20px;
     font-size: 24px;
 }
