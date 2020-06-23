@@ -4,62 +4,42 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://tresdonjones.com/</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-    <loc>https://tresdonjones.com/pages/runes.html</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://tresdonjones.com/pages/projects.html</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tresdonjones.com/pages/photographs.html</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tresdonjones.com/pages/cassettes.html</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tresdonjones.com/pages/contact.html</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/keybored</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tresdonjones.com/musician-website</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tresdonjones.com/runes/on_good.html</loc>
-  <lastmod>2019-05-06T03:04:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://tresdonjones.com/pages/projects/lights.html</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tresdonjones.com/pages/projects/arduino.html</loc>
-  <lastmod>2019-05-06T03:04:45+00:00</lastmod>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tresdonjones.com/index.html</loc>
+  <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
