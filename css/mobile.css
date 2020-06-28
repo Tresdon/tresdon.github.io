@@ -9,7 +9,7 @@ div#container {
             '... main main ..'
             '... .... .... ..';
     grid-template-rows: 2% 100px 2% auto 2% ;
-    grid-template-columns: 2% 150px auto 2%;
+    grid-template-columns: 2% 120px auto 2%;
 }
 
 div#main {
