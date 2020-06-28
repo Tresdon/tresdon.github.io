@@ -15,10 +15,14 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a.active {
     background-color: var(--blue);
     color: var(--white);
     cursor: pointer;
+}
+
+nav a {
+    padding: 1%;
 }
 
 h1 {
