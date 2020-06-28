@@ -1,0 +1,30 @@
+:root {
+    --blue: navy;
+    --white: #FEFEFE;
+}
+
+body {
+    font-family: serif;
+    background-color: var(--white);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+
+
