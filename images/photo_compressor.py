@@ -12,7 +12,7 @@ from PIL import Image
 
 
 PENTAX_ASPECT_RATIO = 1.5
-HTML_TEMPLATE = '<a href="{full_res_path}" data-lightbox="photos"><images src="{compressed_path}"></a>\n'
+HTML_TEMPLATE = '<a href="/images/{full_res_path}" data-lightbox="photos"><img src="/images/{compressed_path}"></a>\n'
 
 
 def parse_args():
