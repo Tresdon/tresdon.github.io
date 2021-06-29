@@ -13,27 +13,27 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/pages/code.html</loc>
+  <loc>https://tresdonjones.com/code</loc>
   <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/pages/photos.html</loc>
+  <loc>https://tresdonjones.com/photos</loc>
   <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/pages/contact.html</loc>
+  <loc>https://tresdonjones.com/contact</loc>
   <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/pages/projects/lights.html</loc>
+  <loc>https://tresdonjones.com/code/projects/lights.html</loc>
   <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tresdonjones.com/pages/projects/arduino.html</loc>
+  <loc>https://tresdonjones.com/code/projects/arduino.html</loc>
   <lastmod>2020-04-25T17:58:24+00:00</lastmod>
   <priority>0.64</priority>
 </url>
